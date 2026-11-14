@@ -1,0 +1,61 @@
+{
+  "truck_speed_m_s": 11.5,
+  "truck_capacity_kg": 600,
+  "truck_empty_l_s": 0.002505359929443691,
+  "truck_increment_l_s_kg": 1.7688466757123475e-07,
+  "drone_speed_m_s": 11.5,
+  "drone_capacity_kg": 4.5,
+  "usable_battery_kwh": 0.51,
+  "drone_empty_W": 1179.31,
+  "drone_increment_W_kg": 184.54,
+  "drones": 3,
+  "truck_cost_cny_m": 0.005693,
+  "drone_cost_cny_m": 0.000684,
+  "carbon_cny_kg": 0.264,
+  "wait_cny_s": 0.005,
+  "fuel_kgCO2e_l": 3.24,
+  "electricity_kgCO2e_battery_kwh": 0.577,
+  "geometry": {
+    "16": [
+      8,
+      2.8,
+      0.42,
+      3,
+      0.72,
+      4.8,
+      3.2
+    ],
+    "25": [
+      12,
+      4.2,
+      0.63,
+      4,
+      1.08,
+      7.2,
+      3.6
+    ],
+    "50": [
+      18,
+      6.3,
+      0.945,
+      8,
+      1.62,
+      10.8,
+      3.6
+    ],
+    "100": [
+      20,
+      10.5,
+      1.575,
+      10,
+      1.6,
+      12,
+      4
+    ]
+  },
+  "coordinate_units": "m",
+  "synthetic_launch_allowed_all_stops": true,
+  "heavy_orders": "round(0.2*n), uniform 0.001 kg grid on [4.501,10.000] kg",
+  "light_orders": "uniform 0.001 kg grid on [0.001,4.500] kg",
+  "notes": "Truck rates from manuscript A.6/B.1. Emission factors and costs are declared reference scenario inputs."
+}

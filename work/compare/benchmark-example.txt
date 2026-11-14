@@ -1,0 +1,13 @@
+BENCHMARK 1
+BUDGET_MS 500
+CHECKPOINTS 3 100 250 500
+SEEDS 2 42 43
+METHODS 7 hybrid plain fixed_q nonadaptive within_stop order_first vns
+FIXED_Q 4
+ORDER_FIRST 5 2
+VNS 2
+BOOTSTRAP 1000 2026
+CASES 2
+demo_a demo "example.txt" 80
+demo_b demo "example_alt.txt" 0
+END
